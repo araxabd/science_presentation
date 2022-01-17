@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="//fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic"
+      rel="stylesheet"
+    />
+    <title>آرین عبداللهیان - کلاس ۹.۲ |‌مبحث پیوند یونی و کووالانسی</title>
+    <link rel="stylesheet" href="./impress-demo.css" />
+    <link rel="stylesheet" href="./impress-common.css" />
+    <link
+      rel="stylesheet"
+      href="./bootstrap-rtl.min.css"
+      integrity="sha512-oSy57agnmjGPHNqvoc5416Mn5+5+HnTxyddp6zmh7xLjvdHpLbhnBRfZVEbYp8NTF8BkG3lVQItN3GeiLdkdpg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="./tailwindcss.js"></script>
+  </head>
+  <style>
+    html,
+    body {
+      background: darkblue !important;
+      font-family: "Vazir" !important;
+    }
+
+    .font {
+      font-family: "Vazir" !important;
+    }
+
+    .normalsf {
+      /* font-size: 1rem; */
+      font-size: initial !important;
+    }
+  </style>
+  <body>
+    <div class="fallback-message">
+      <p>
+        مرورگر شما از کتابخانه impressJS پشتیبانی نمیکند
+        <br />
+        از
+        <a href="https://mozilla.org/firefox/browsers">یک مرورگر واقعی</a>
+        استفاده کنید.
+      </p>
+    </div>
+
+    <noscript>
+      <p>
+        برای نمایش درست این صفحه یا جاوااسکریپت مرورگر خود را فعال نمایید و یا
+        <br />
+        از
+        <a href="https://mozilla.org/firefox/browsers">یک مرورگر واقعی</a>
+        استفاده کنید.
+      </p>
+    </noscript>
+
+    <div
+      id="impress"
+      data-transition-duration="1000"
+      data-width="1024"
+      data-height="768"
+      data-max-scale="3"
+      data-min-scale="0"
+      data-perspective="1000"
+      data-autoplay="7"
+    >
+      <div
+        id="bored"
+        class="step slide bg-danger text-white rtl font"
+        data-x="-1000"
+        data-y="-1500"
+        data-autoplay="10"
+      >
+        <q>
+          <div class="text-center alert alert-danger">
+            <strong>فصل ۱ علوم تجربی</strong>
+          </div>
+          <small style="font-size: 2rem">آرین عبداللهیان</small>
+          <small class="normalsf">کلاس ۹.۲</small><br />
+          <span class="alert alert-success" style="font-size: 2rem">
+            پیوند های یونی و انتقالی (کووالانسی)
+          </span>
+          <br />
+          <div style="direction: ltr">
+            <img
+              src="./oloomketab.jpg"
+              alt="9 science"
+              width="200"
+              style="
+                display: block;
+                position: absolute;
+                margin: 0 0;
+                border-radius: 20px;
+              "
+            />
+          </div>
+          <br />
+        </q>
+      </div>
+
+      <div class="step slide text-center font" data-x="0" data-y="-1500">
+        <q>
+          <div class="alert alert-primary"><strong>پیوند یونی</strong></div>
+          <img
+            src="./پاورپوینت-نکته-وار-فصل-دوم-علوم-نهم-پیوند-یونی-پیوند-کووالانسی-یگانه-دوگانه-سه-گانه-780x405.jpg"
+            alt=""
+          />
+        </q>
+      </div>
+
+      <div class="step slide text-center font" data-x="1000" data-y="-1500">
+        <div class="alert alert-warning">
+          <strong>ویژگی های ترکیبات یونی</strong>
+        </div>
+        <ul class="list-disc rtl">
+          <li>هدایت الکتریکی</li>
+          <li>تشکیل بلور</li>
+          <li>خرد شدن</li>
+          <li>انحلال پذیری</li>
+          <li>...</li>
+        </ul>
+        <img src="./NaCl-Lattice_-Ball-Ball-Stick.png" alt="chert o pert" width="500">
+      </div>
+
+      <div class="step slide text-center font" data-x="2000" data-y="-1500">
+        <q>
+          <div class="alert alert-primary">
+            <strong>پیوند کووالانسی</strong>
+          </div>
+          <img
+            src="./ترکیب-کووالانسی-چیست-و-چه-خواص-و-ویژگی-هایی-دارد-؟.png"
+            alt=""
+            width="500"
+          />
+        </q>
+      </div>
+
+
+      <div class="step text-white" data-x="2000" data-y="-1500" data-z="-100000" data-rotate="100">
+        <strong>.پایان</strong>
+      </div>
+
+    </div>
+
+    <div id="impress-toolbar"></div>
+
+    <div class="hint rtl text-center text-2">
+      <small> کلید space را فشار دهید </small>
+    </div>
+
+    <script>
+      if ("ontouchstart" in document.documentElement) {
+        document.querySelector(
+          ".hint"
+        ).innerHTML = `<p>صفحه را به سمت راست یا چب بکشید</p>
+        <small>برای عملکرد بهتر استفاده از مرورگر کامپیوتر پیشنهاد میشود</small>
+        `;
+      }
+    </script>
+
+    <script src="./impress.js"></script>
+
+    <script>
+      impress().init();
+    </script>
+  </body>
+</html>
